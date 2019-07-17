@@ -1,6 +1,6 @@
 # vita-claim-as
 
-A script helps you claim VITA.
+A JS script helps you claim VITA.
 
 ```bash
 nvm use 10.15.1
