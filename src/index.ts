@@ -28,9 +28,9 @@ export async function claimAs(): Promise<void> {
 }
 
 cron.schedule(
-  "0 12 * * *",
+  "0 11 * * *",
   () => {
-    console.log(moment().calendar());
+    console.log(moment().format("LLLL"));
     claimAs();
   },
   {
